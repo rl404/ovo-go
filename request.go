@@ -8,7 +8,7 @@ import (
 // CreateRequest is request model for create push-to-pay transaction.
 type CreateRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
-	Phone           string  `validate:"required" mod:"no_space"`
+	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
 	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
 	BatchNo         int     `validate:"required,gt=0,lt=1000000"`
@@ -17,7 +17,7 @@ type CreateRequest struct {
 // CreateReversalRequest is request model for create reversal push-to-pay transaction.
 type CreateReversalRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
-	Phone           string  `validate:"required" mod:"no_space"`
+	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
 	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
 	BatchNo         int     `validate:"required,gt=0,lt=1000000"`
@@ -26,7 +26,7 @@ type CreateReversalRequest struct {
 // VoidRequest is request model for void push-to-pay transaction.
 type VoidRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
-	Phone           string  `validate:"required" mod:"no_space"`
+	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
 	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
 	BatchNo         int     `validate:"required,gt=0,lt=1000000"`
@@ -34,13 +34,13 @@ type VoidRequest struct {
 
 // InquiryPhoneRequest is request model for inquiry phone number.
 type InquiryPhoneRequest struct {
-	Phone string `validate:"required" mod:"no_space"`
+	Phone string `validate:"e164" mod:"no_space,e164"`
 }
 
 // GetStatusRequest is request model for get transaction data & status.
 type GetStatusRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
-	Phone           string  `validate:"required" mod:"no_space"`
+	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
 	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
 	BatchNo         int     `validate:"required,gt=0,lt=1000000"`

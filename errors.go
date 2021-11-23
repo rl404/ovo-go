@@ -26,6 +26,10 @@ func errLTField(str, value string) error {
 	return fmt.Errorf("field %s must be lower than %s", str, value)
 }
 
+func errPhoneField() error {
+	return fmt.Errorf("invalid phone format")
+}
+
 var ovoErr = map[string]error{
 	"13": errors.New("invalid amount"),
 	"14": errors.New("invalid mobile number/OVO ID"),

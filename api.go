@@ -139,7 +139,6 @@ func (c *Client) InquiryPhoneWithContext(ctx context.Context, request InquiryPho
 	return &response, code, nil
 }
 
-
 // GetStatus to get transaction data & status.
 func (c *Client) GetStatus(request GetStatusRequest) (*Transaction, int, error) {
 	return c.GetStatusWithContext(context.Background(), request)
