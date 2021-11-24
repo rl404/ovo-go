@@ -10,8 +10,8 @@ type CreateRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
 	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
-	ReferenceNumber int     `validate:"lt=1000000"`
-	BatchNo         int     `validate:"lt=1000000"`
+	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
+	BatchNo         int     `validate:"required,gt=0,lt=1000000"`
 }
 
 // CreateReversalRequest is request model for create reversal push-to-pay transaction.
@@ -19,8 +19,8 @@ type CreateReversalRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
 	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
-	ReferenceNumber int     `validate:"lt=1000000"`
-	BatchNo         int     `validate:"lt=1000000"`
+	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
+	BatchNo         int     `validate:"required,gt=0,lt=1000000"`
 }
 
 // VoidRequest is request model for void push-to-pay transaction.
@@ -28,8 +28,8 @@ type VoidRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
 	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
-	ReferenceNumber int     `validate:"lt=1000000"`
-	BatchNo         int     `validate:"lt=1000000"`
+	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
+	BatchNo         int     `validate:"required,gt=0,lt=1000000"`
 }
 
 // InquiryPhoneRequest is request model for inquiry phone number.
@@ -42,8 +42,8 @@ type GetStatusRequest struct {
 	Amount          float64 `validate:"required,gt=0"`
 	Phone           string  `validate:"e164" mod:"no_space,e164"`
 	MerchantInvoice string  `validate:"required" mod:"no_space"`
-	ReferenceNumber int     `validate:"lt=1000000"`
-	BatchNo         int     `validate:"lt=1000000"`
+	ReferenceNumber int     `validate:"required,gt=0,lt=1000000"`
+	BatchNo         int     `validate:"required,gt=0,lt=1000000"`
 }
 
 type request struct {
