@@ -3,7 +3,7 @@ module github.com/rl404/ovo-go
 go 1.17
 
 require (
-	github.com/dongri/phonenumber v0.0.0-20210805005246-531b48ff7473
+	github.com/dongri/phonenumber v0.0.0-20230428094603-9e2d44886294
 	github.com/go-playground/mold/v4 v4.5.0
 	github.com/go-playground/validator/v10 v10.14.1
 )
