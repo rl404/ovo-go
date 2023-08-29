@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/dongri/phonenumber v0.0.0-20230802110131-300a6e978570
 	github.com/go-playground/mold/v4 v4.5.0
-	github.com/go-playground/validator/v10 v10.15.1
+	github.com/go-playground/validator/v10 v10.15.2
 )
 
 require (
