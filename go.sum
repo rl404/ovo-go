@@ -4,6 +4,8 @@ github.com/dongri/phonenumber v0.1.2 h1:PI/WmOo2qP/2umPvvbbNAuNJi4Xu4KNapE92z6YD
 github.com/dongri/phonenumber v0.1.2/go.mod h1:cuHFSstIxh6qh/Qs/SCV3Grb/JMYregBLuXELvSYmT4=
 github.com/dongri/phonenumber v0.1.3 h1:r424JAm4L4APrKM09waCMIl/j0jv6nolZsIetvCppTg=
 github.com/dongri/phonenumber v0.1.3/go.mod h1:cuHFSstIxh6qh/Qs/SCV3Grb/JMYregBLuXELvSYmT4=
+github.com/dongri/phonenumber v0.1.4 h1:GWOdmcZsr9WQiIWWf8NSigFdxDHn27ajVDO2kzfS8P8=
+github.com/dongri/phonenumber v0.1.4/go.mod h1:cuHFSstIxh6qh/Qs/SCV3Grb/JMYregBLuXELvSYmT4=
 github.com/gabriel-vasile/mimetype v1.4.3 h1:in2uUcidCuFcDKtdcBxlR0rJ1+fsokWf+uqxgUFjbI0=
 github.com/gabriel-vasile/mimetype v1.4.3/go.mod h1:d8uq/6HKRL6CGdk+aubisF/M5GcPfT7nKyLpA0lbSSk=
 github.com/go-playground/assert/v2 v2.2.0 h1:JvknZsQTYeFEAhQwI4qEt9cyV5ONwRHC+lYKSsYSR8s=
@@ -18,6 +20,8 @@ github.com/go-playground/validator/v10 v10.19.0 h1:ol+5Fu+cSq9JD7SoSqe04GMI92cbn
 github.com/go-playground/validator/v10 v10.19.0/go.mod h1:dbuPbCMFw/DrkbEynArYaCwl3amGuJotoKCe95atGMM=
 github.com/go-playground/validator/v10 v10.20.0 h1:K9ISHbSaI0lyB2eWMPJo+kOS/FBExVwjEviJTixqxL8=
 github.com/go-playground/validator/v10 v10.20.0/go.mod h1:dbuPbCMFw/DrkbEynArYaCwl3amGuJotoKCe95atGMM=
+github.com/go-playground/validator/v10 v10.21.0 h1:4fZA11ovvtkdgaeev9RGWPgc1uj3H8W+rNYyH/ySBb0=
+github.com/go-playground/validator/v10 v10.21.0/go.mod h1:dbuPbCMFw/DrkbEynArYaCwl3amGuJotoKCe95atGMM=
 github.com/gosimple/slug v1.13.1 h1:bQ+kpX9Qa6tHRaK+fZR0A0M2Kd7Pa5eHPPsb1JpHD+Q=
 github.com/gosimple/slug v1.13.1/go.mod h1:UiRaFH+GEilHstLUmcBgWcI42viBN7mAb818JrYOeFQ=
 github.com/gosimple/unidecode v1.0.1 h1:hZzFTMMqSswvf0LBJZCZgThIZrpDHFXux9KeGmn6T/o=
