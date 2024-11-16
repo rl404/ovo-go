@@ -7,7 +7,7 @@ toolchain go1.23.3
 require (
 	github.com/dongri/phonenumber v0.1.10
 	github.com/go-playground/mold/v4 v4.5.0
-	github.com/go-playground/validator/v10 v10.22.1
+	github.com/go-playground/validator/v10 v10.23.0
 )
 
 require (
