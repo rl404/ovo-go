@@ -2,7 +2,7 @@ module github.com/rl404/ovo-go
 
 go 1.23.0
 
-toolchain go1.24.2
+toolchain go1.24.3
 
 require (
 	github.com/dongri/phonenumber v0.1.12
