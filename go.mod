@@ -2,12 +2,12 @@ module github.com/rl404/ovo-go
 
 go 1.23.0
 
-toolchain go1.24.4
+toolchain go1.24.5
 
 require (
 	github.com/dongri/phonenumber v0.1.12
 	github.com/go-playground/mold/v4 v4.5.1
-	github.com/go-playground/validator/v10 v10.26.0
+	github.com/go-playground/validator/v10 v10.27.0
 )
 
 require (
