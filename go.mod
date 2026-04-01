@@ -1,17 +1,17 @@
 module github.com/rl404/ovo-go
 
-go 1.24.0
+go 1.25.0
 
 toolchain go1.26.1
 
 require (
 	github.com/dongri/phonenumber v0.1.12
 	github.com/go-playground/mold/v4 v4.5.1
-	github.com/go-playground/validator/v10 v10.30.1
+	github.com/go-playground/validator/v10 v10.30.2
 )
 
 require (
-	github.com/gabriel-vasile/mimetype v1.4.12 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.13 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/gosimple/slug v1.15.0 // indirect
@@ -19,7 +19,7 @@ require (
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/segmentio/go-camelcase v0.0.0-20160726192923-7085f1e3c734 // indirect
 	github.com/segmentio/go-snakecase v1.2.0 // indirect
-	golang.org/x/crypto v0.46.0 // indirect
-	golang.org/x/sys v0.39.0 // indirect
-	golang.org/x/text v0.32.0 // indirect
+	golang.org/x/crypto v0.49.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
 )
